@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:white;
+}
+
+.box{
+    text-align:center;
+    background: rgba(255,255,255,0.1);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+    width:300px;
+}
+
+button{
+    padding:10px 15px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#00c6ff;
+    color:white;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#0072ff;
+}
+
+#output{
+    margin-top:20px;
+    font-size:16px;
+}
